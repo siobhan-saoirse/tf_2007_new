@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/c_models/c_directhit/c_directhit"
+	"$surfaceprop"	"no_decal"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

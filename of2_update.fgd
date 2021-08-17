@@ -1,0 +1,27 @@
+//====== Copyright © 1996-2005, Valve Corporation, All rights reserved. =======
+//
+// Purpose: Half-Life 2 game definition file (.fgd) 
+//
+//=============================================================================
+
+@include "halflife2.fgd"
+
+@PointClass base(Weapon) studio("models/weapons/c_models/c_claymore/c_claymore.mdl") = tf_weapon_sword : "Eyelander" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_minigun.mdl") = tf_weapon_minigun : "Minigun" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_smg.mdl") = tf_weapon_smg : "SMG" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_sniperrifle.mdl") = tf_weapon_sniperrifle : "Sniper Rifle" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_pyro : "Pyro's Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_soldier : "Soldier's Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_hwg : "HWG's Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_shotgun_primary : "Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_shotgun.mdl") = tf_weapon_scattergun : "Scattergun (or Scout's Shotgun lul)" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_pistol.mdl") = tf_weapon_pistol : "Pistol" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_pistol.mdl") = tf_weapon_pistol_scout : "Scout's Pistol" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_grenadelauncher.mdl") = tf_weapon_grenadelauncher : "Grenade Launcher" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_bottle.mdl") = tf_weapon_bottle : "Bottle" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_bat.mdl") = tf_weapon_bat : "Bat" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_kukri.mdl") = tf_weapon_club : "Machette" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_knife.mdl") = tf_weapon_knife : "Knife!" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_rocketlauncher.mdl") = tf_weapon_rocketlauncher : "RPG" []
+@PointClass base(Weapon) studio("models/weapons/v_models/v_fists_heavy.mdl") = tf_weapon_fists : "Heavy's Fists" []
+

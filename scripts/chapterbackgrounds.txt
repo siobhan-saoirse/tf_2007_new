@@ -1,0 +1,16 @@
+"chapters"
+{
+	1	"background01"
+	2	"background02"
+	3	"title_blue"
+	4	"title_war"
+	5	"title_team_halloween"
+}
+"BackgroundMaps"
+{
+	1	"background01"
+	2	"background01"
+	3	"background01"
+	4	"background01"
+	5	"background01"
+}
