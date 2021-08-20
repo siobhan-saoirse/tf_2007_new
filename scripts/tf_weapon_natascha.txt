@@ -28,7 +28,7 @@ WeaponData
 	"bucket_position"	"0"
 
 	// Animation.
-	"viewmodel"		"models/weapons/v_models/v_minigun_heavy.mdl"
+	"viewmodel"		"models/weapons/v_models/v_ludmila_heavy.mdl"
 	"playermodel"		"models/weapons/c_models/c_minigun/c_minigun_natascha.mdl"
 	"anim_prefix"		"ac"
 
