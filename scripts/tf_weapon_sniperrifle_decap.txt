@@ -34,18 +34,18 @@ WeaponData
 	"MuzzleFlashParticleEffect" "muzzle_sniperrifle"
 
 	// Animation.
-	//"viewmodel"     -viewmodel is now defined in _items_main.txt
-	//"playermodel"   -playermodel is now defined in _items_main.txt
+	"viewmodel"		"models/weapons/v_models/v_sniperrifle_sniper.mdl"
+	"playermodel"		"models/weapons/c_models/c_pro_rifle/c_pro_rifle/mdl"
 	"anim_prefix"		"shotgun"
 
 	// Sounds.
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).
 	SoundData
 	{
-		"single_shot"		"Weapon_SniperRifle.Single"
+		"single_shot"		"Weapon_ProSniperRifle.Single"
 		"reload"		"Weapon_SniperRifle.WorldReload"
 		"empty"			"Weapon_SniperRifle.ClipEmpty"	
-		"burst"			"Weapon_SniperRifle.SingleCrit"
+		"burst"			"Weapon_ProSniperRifle.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

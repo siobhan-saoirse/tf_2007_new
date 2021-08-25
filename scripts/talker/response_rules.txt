@@ -798,9 +798,6 @@ criterion "IsMap_d3_c17_09" "map" "d3_c17_09" "required"
 #include "talker/npc_grigori.txt"
 #include "talker/npc_barney.txt"
 #include "talker/npc_alyx.txt"
-
-
-// Test rules
 #include "talker/tf.txt"
 #include "talker/Heavy.txt"
 #include "talker/Scout.txt"

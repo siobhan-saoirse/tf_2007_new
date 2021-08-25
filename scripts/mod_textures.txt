@@ -1147,7 +1147,7 @@
 				"width"		"64"
 				"height"	"32"
 		}
-		"robot_arm_kill"
+		"robot_arm"
 		{
 				"dfile"	"HUD/d_images_v2"
 				"dnegfile"	"HUD/dneg_images_v2"
@@ -1237,7 +1237,34 @@
 				"width"		"128"
 				"height"	"32"
 		}
-		"fryingpan"
+		"frying_pan"
+		{
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
+				"x"		"96"
+				"y"		"768"
+				"width"		"96"
+				"height"	"32"
+		}
+		"frying_pan_hwg"
+		{
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
+				"x"		"96"
+				"y"		"768"
+				"width"		"96"
+				"height"	"32"
+		}
+		"frying_pan_pyro"
+		{
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
+				"x"		"96"
+				"y"		"768"
+				"width"		"96"
+				"height"	"32"
+		}
+		"frying_pan_scout"
 		{
 				"dfile"	"HUD/d_images_v2"
 				"dnegfile"	"HUD/dneg_images_v2"
@@ -2344,7 +2371,7 @@
 				"height"	"32"
 		}
 		
-		"family_business"
+		"shotgun_family"
 		{
 				"dfile"	"HUD/d_images_v2"
 				"dnegfile"	"HUD/dneg_images_v2"
@@ -2567,7 +2594,7 @@
 				"width"		"96"
 				"height"	"32"		
 		}
-		"scotland_shard"
+		"scottish_resistance"
 		{
 				"dfile"	"HUD/d_images_v3"
 				"dnegfile"	"HUD/dneg_images_v3"
@@ -3259,6 +3286,15 @@
 			"height"	"32"
 		}
 		"shotgun_pyro_panic"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"256"
+			"y"		"736"
+			"width"		"128"
+			"height"	"32"
+		}
+		"shotgun_soldier_panic"
 		{
 			"dfile"	"HUD/d_images_v3"
 			"dnegfile"	"HUD/dneg_images_v3"
