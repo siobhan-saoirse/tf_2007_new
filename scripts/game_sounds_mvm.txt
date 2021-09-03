@@ -229,7 +229,7 @@
 	"channel"		"CHAN_BODY"
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_120dB"
 
 	"rndwave"
 	{
@@ -607,7 +607,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
 	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_120dB"
 	"rndwave"
 	{
 		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
@@ -656,7 +656,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		".65"
 	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_120dB"
 	"rndwave"
 	{
 		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
@@ -714,7 +714,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
 	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_120dB"
 	"rndwave"
 	{
 		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
@@ -751,9 +751,9 @@
 "MVM.GiantScoutStep"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.6"
+	"volume"		"1"
 	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_87dB"
+	"soundlevel"	"SNDLVL_120dB"
 	"rndwave"
 	{
 		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
@@ -783,7 +783,7 @@
 {
 	"volume"		"1"
 	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_95dB"
+	"soundlevel"	"SNDLVL_120dB"
 	"rndwave"
 	{
 		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
