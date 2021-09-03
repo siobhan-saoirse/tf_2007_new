@@ -224,6 +224,100 @@
 	"wave"			"misc/null.wav"
 }
 
+"RobotBoss.Footstep"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
+	}
+}
+"RobotBoss.LaunchRockets"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.75"
+	"pitch"			"95, 105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"wave"			"mvm/giant_soldier/giant_soldier_rocket_shoot.wav"
+}
+"RobotBoss.LaunchGrenades"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.75"
+	"pitch"			"95, 105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"wave"		"^mvm/giant_demoman/giant_demoman_grenade_shoot.wav"
+}
+"RobotBoss.Hurt"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.65, 0.75"
+	"pitch"			"95, 105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+		"wave"		"vo/mvm/mght/soldier_mvm_m_painsevere01.mp3"
+		"wave"		"vo/mvm/mght/soldier_mvm_m_painsevere02.mp3"
+		"wave"		"vo/mvm/mght/soldier_mvm_m_painsevere03.mp3"
+		"wave"		"vo/mvm/mght/soldier_mvm_m_painsevere04.mp3"
+		"wave"		"vo/mvm/mght/soldier_mvm_m_painsevere05.mp3"
+		"wave"		"vo/mvm/mght/soldier_mvm_m_painsevere06.mp3"
+	}
+}
+"RobotBoss.Scanning"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"pitch"			"95, 105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+		"wave"		"vo/mvm/mght/taunts/soldier_mvm_m_taunts03.mp3"
+		"wave"		"vo/mvm/mght/taunts/soldier_mvm_m_taunts04.mp3"
+		"wave"		"vo/mvm/mght/taunts/soldier_mvm_m_taunts05.mp3"
+		"wave"		"vo/mvm/mght/taunts/soldier_mvm_m_taunts06.mp3"
+		"wave"		"vo/mvm/mght/taunts/soldier_mvm_m_taunts07.mp3"
+		"wave"		"vo/mvm/mght/taunts/soldier_mvm_m_taunts08.mp3"
+	}
+}
+"RobotBoss.ChargeUpNukeAttack"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+		"wave"		"weapons/stickybomblauncher_charge_up.wav"
+	}
+}
+"RobotBoss.NukeAttack"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"85"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+		"wave"		"ambient/explosions/explode_1.wav"
+		"wave"		"ambient/explosions/explode_2.wav"
+		"wave"		"ambient/explosions/explode_3.wav"
+		"wave"		"ambient/explosions/explode_4.wav"
+		"wave"		"ambient/explosions/explode_5.wav"
+	}
+}
+
 // Baseball bat replacement
 "Weapon_BaseballBat.HitFlesh"
 {
@@ -516,10 +610,14 @@
 	"soundlevel"  	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"^mvm/giant_heavy/giant_heavy_step01.wav"
-		"wave"		"^mvm/giant_heavy/giant_heavy_step02.wav"
-		"wave"		"^mvm/giant_heavy/giant_heavy_step03.wav"
-		"wave"		"^mvm/giant_heavy/giant_heavy_step04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
 	}
 }
 
@@ -535,9 +633,8 @@
 	"soundlevel"  	"SNDLVL_125dB"
 	"rndwave"
 	{
-//		"wave"	")mvm/giant_common/giant_common_explodes_01.wav"
-//		"wave"	")mvm/giant_common/giant_common_explodes_02.wav"
-		"wave"			"mvm/sentrybuster/mvm_sentrybuster_explode.wav"
+		"wave"	")mvm/giant_common/giant_common_explodes_01.wav"
+		"wave"	")mvm/giant_common/giant_common_explodes_02.wav"
 
 	}	
 }
@@ -562,10 +659,14 @@
 	"soundlevel"  	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"^mvm/giant_soldier/giant_soldier_step01.wav"
-		"wave"		"^mvm/giant_soldier/giant_soldier_step02.wav"
-		"wave"		"^mvm/giant_soldier/giant_soldier_step03.wav"
-		"wave"		"^mvm/giant_soldier/giant_soldier_step04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
 	}
 }
 
@@ -616,10 +717,14 @@
 	"soundlevel"  	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"^mvm/giant_demoman/giant_demoman_step_01.wav"
-		"wave"		"^mvm/giant_demoman/giant_demoman_step_02.wav"
-		"wave"		"^mvm/giant_demoman/giant_demoman_step_03.wav"
-		"wave"		"^mvm/giant_demoman/giant_demoman_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
 	}
 }
 
@@ -651,10 +756,14 @@
 	"soundlevel"  	"SNDLVL_87dB"
 	"rndwave"
 	{
-		"wave"		"^mvm/giant_scout/giant_scout_step_01.wav"
-		"wave"		"^mvm/giant_scout/giant_scout_step_02.wav"
-		"wave"		"^mvm/giant_scout/giant_scout_step_03.wav"
-		"wave"		"^mvm/giant_scout/giant_scout_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
 	}
 }
 
@@ -677,10 +786,14 @@
 	"soundlevel"  	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"^mvm/giant_pyro/giant_pyro_step_01.wav"
-		"wave"		"^mvm/giant_pyro/giant_pyro_step_02.wav"
-		"wave"		"^mvm/giant_pyro/giant_pyro_step_03.wav"
-		"wave"		"^mvm/giant_pyro/giant_pyro_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_01.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_02.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_03.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_04.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_05.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_06.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_07.wav"
+		"wave"		"^mvm/giant_common/giant_common_step_08.wav"
 	}
 }
 

@@ -35,7 +35,7 @@ WeaponData
 
 	// Animation.
 	"viewmodel"		"models/weapons/v_models/v_sniperrifle_sniper.mdl"
-	"playermodel"		"models/weapons/c_models/c_pro_rifle/c_pro_rifle/mdl"
+	"playermodel"		"models/weapons/c_models/c_pro_rifle/c_pro_rifle.mdl"
 	"anim_prefix"		"shotgun"
 
 	// Sounds.
