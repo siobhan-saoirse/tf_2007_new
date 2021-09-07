@@ -633,9 +633,9 @@
 	"soundlevel"  	"SNDLVL_125dB"
 	"rndwave"
 	{
-		"wave"	")mvm/giant_common/giant_common_explodes_01.wav"
-		"wave"	")mvm/giant_common/giant_common_explodes_02.wav"
-
+//		"wave"	")mvm/giant_common/giant_common_explodes_01.wav"
+//		"wave"	")mvm/giant_common/giant_common_explodes_02.wav"
+		"wave"			"mvm/sentrybuster/mvm_sentrybuster_explode.wav"
 	}	
 }
 

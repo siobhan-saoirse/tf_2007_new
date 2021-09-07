@@ -46,7 +46,7 @@ WeaponData
 		"special1"		"Weapon_Minigun.WindUp"
 		"special2"		"Weapon_Minigun.WindDown"
 		"special3"		"Weapon_Minigun.Spin"
-		"burst_mvm"			"Weapon_Minigun.FireCrit"
+		"burst"			"Weapon_Minigun.FireCrit"
 		"double_shot_mvm"	"MVM.GiantHeavyGunFire"
 		"special1_mvm"		"MVM.GiantHeavyGunWindUp"
 		"special2_mvm"		"MVM.GiantHeavyGunWindDown"
