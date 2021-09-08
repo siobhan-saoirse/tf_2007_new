@@ -19,8 +19,8 @@ WeaponData
 	"default_clip"			"45"
 	"default_clip2"			"-1"
 
-	"primary_ammo"		"TF_AMMO_SECONDARY"
-	"secondary_ammo"	"None"
+	"primary_ammo"			"SMG1"
+	"secondary_ammo"		"SMG1_Grenade"
 
 	"weight"				"3"
 	"rumble"			"3"
