@@ -1893,6 +1893,27 @@ Rule PlayerMatchWinCompHeavy
 	criteria ConceptPlayerMatchOverComp PlayerOnWinningTeam IsHeavy 40PercentChance
 	Response PlayerMatchWinCompHeavy
 }
+
+Response PlayerPainTank
+{
+	speak "HulkZombie.Pain"
+}
+Response PlayerPainTank2
+{	
+	speak "HulkZombie.Pain"
+	speak "HulkZombie.PainFire"
+}
+Rule PlayerPainTank
+{
+	criteria ConceptPain IsTank IsNotDominating
+	Response PlayerPainTank
+}
+Rule PlayerPainTank2
+{
+	criteria ConceptAttackerPain IsTank IsNotDominating
+	Response PlayerPainTank2
+}
+
 //--------------------------------------------------------------------------------------------------------------
 // End Competitive Mode VO
 //--------------------------------------------------------------------------------------------------------------

@@ -1244,7 +1244,10 @@
 	{
 		"wave"	"physics/body/body_medium_impact_soft1.wav"
 		"wave"	"physics/body/body_medium_impact_soft2.wav"
+		"wave"	"physics/body/body_medium_impact_soft3.wav"
+		"wave"	"physics/body/body_medium_impact_soft4.wav"
 		"wave"	"physics/body/body_medium_impact_soft5.wav"
+		"wave"	"physics/body/body_medium_impact_soft6.wav"
 		"wave"	"physics/body/body_medium_impact_soft7.wav"
 	}
 }
@@ -1258,10 +1261,13 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"physics/body/body_medium_impact_hard1.wav"
-		"wave"	"physics/body/body_medium_impact_hard2.wav"
-		"wave"	"physics/body/body_medium_impact_hard4.wav"
-		"wave"	"physics/body/body_medium_impact_hard5.wav"
+		"wave"	"physics/body/body_medium_impact_soft1.wav"
+		"wave"	"physics/body/body_medium_impact_soft2.wav"
+		"wave"	"physics/body/body_medium_impact_soft3.wav"
+		"wave"	"physics/body/body_medium_impact_soft4.wav"
+		"wave"	"physics/body/body_medium_impact_soft5.wav"
+		"wave"	"physics/body/body_medium_impact_soft6.wav"
+		"wave"	"physics/body/body_medium_impact_soft7.wav"
 	}
 }
 
@@ -1332,9 +1338,13 @@
 	"pitch"			"100"
 	"rndwave"
 	{
-		"wave"	"physics/flesh/flesh_squishy_impact_hard2.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard3.wav"
-		"wave"	"physics/flesh/flesh_squishy_impact_hard4.wav"
+		"wave"	"physics/body/body_medium_impact_soft1.wav"
+		"wave"	"physics/body/body_medium_impact_soft2.wav"
+		"wave"	"physics/body/body_medium_impact_soft3.wav"
+		"wave"	"physics/body/body_medium_impact_soft4.wav"
+		"wave"	"physics/body/body_medium_impact_soft5.wav"
+		"wave"	"physics/body/body_medium_impact_soft6.wav"
+		"wave"	"physics/body/body_medium_impact_soft7.wav"
 	}
 }
 

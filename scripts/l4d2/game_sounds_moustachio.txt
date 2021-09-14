@@ -1,0 +1,300 @@
+//--------------------------------------------------------------------------------------------------------------
+// Moustachio Game Sound Text File
+//--------------------------------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------------------------------
+// This file is auto generated do not hand edit!
+//--------------------------------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------------------------------
+// Last Updated: 08/25/09
+//--------------------------------------------------------------------------------------------------------------
+
+//Yes! YES!
+"Moustachio_STRENGTHATTRACT01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT01.WAV"
+}
+
+
+//[Laughter]
+"Moustachio_STRENGTHATTRACT02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT02.WAV"
+}
+
+
+//Moustachio!
+"Moustachio_STRENGTHATTRACT03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT03.WAV"
+}
+
+
+//Moustachio!
+"Moustachio_STRENGTHATTRACT04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT04.WAV"
+}
+
+
+//[Laughter]
+"Moustachio_STRENGTHATTRACT05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT05.WAV"
+}
+
+
+//[Laughter]
+"Moustachio_STRENGTHATTRACT06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT06.WAV"
+}
+
+
+//Moustachio!
+"Moustachio_STRENGTHATTRACT07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT07.WAV"
+}
+
+
+//Grrrrr!
+"Moustachio_STRENGTHATTRACT08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT08.WAV"
+}
+
+
+//[Laughter]
+"Moustachio_STRENGTHATTRACT09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT09.WAV"
+}
+
+
+//Test Your Strength! Grrrr!
+"Moustachio_STRENGTHATTRACT10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHATTRACT10.WAV"
+}
+
+
+//Moustachio!
+"Moustachio_STRENGTHBREAKMACHINE"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHBREAKMACHINE.WAV"
+}
+
+
+//L'il peanut, SO WEAK!
+"Moustachio_STRENGTHLVL1_LITTLEPEANUT"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHLVL1_LITTLEPEANUT.WAV"
+}
+
+
+//Baby peanut. WEAK!
+"Moustachio_STRENGTHLVL2_BABYPEANUT"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHLVL2_BABYPEANUT.WAV"
+}
+
+
+//Old peanut! HA HA HA HA!
+"Moustachio_STRENGTHLVL3_OLDPEANUT"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHLVL3_OLDPEANUT.WAV"
+}
+
+
+//Not bad, ha ha! Moustachio!
+"Moustachio_STRENGTHLVL4_NOTBAD"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHLVL4_NOTBAD.WAV"
+}
+
+
+//So Strong! Grrrr!
+"Moustachio_STRENGTHLVL5_SOSTRONG"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"			"npc\Moustachio\STRENGTHLVL5_SOSTRONG.WAV"
+}
+
+
+//
+"Moustachio_WHACKPOPUP01"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"115, 140"
+	"soundlevel"		"SNDLVL_70dB"
+	"rndwave"
+	{
+		"wave"			"npc\Moustachio\WHACKPOPUP01.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP02.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP03.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP04.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP05.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP06.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP07.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP08.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP09.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP10.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP11.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP12.WAV"
+		"wave"			"npc\Moustachio\WHACKPOPUP13.WAV"
+	}
+}
+
+
+//
+"Moustachio_WHACKSMASH01"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"115, 140"
+	"soundlevel"		"SNDLVL_70dB"
+	"rndwave"
+	{
+		"wave"			"npc\Moustachio\WHACKSMASH01.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH02.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH03.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH04.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH05.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH06.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH07.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH08.WAV"
+		"wave"			"npc\Moustachio\WHACKSMASH09.WAV"
+	}
+}
+
+//
+"Moustachio_STRENGTHATTRACT_RANDOM"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"			"npc\Moustachio\STRENGTHATTRACT03.WAV"
+		"wave"			"npc\Moustachio\STRENGTHATTRACT04.WAV"
+		"wave"			"npc\Moustachio\STRENGTHATTRACT07.WAV"
+	}
+}
+
+//
+"Moustachio_STRENGTHATTRACT_RANDOMLAUGH"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"			"npc\Moustachio\STRENGTHATTRACT10.WAV"
+		"wave"			"npc\Moustachio\STRENGTHATTRACT02.WAV"
+		"wave"			"npc\Moustachio\STRENGTHATTRACT05.WAV"
+		"wave"			"npc\Moustachio\STRENGTHATTRACT06.WAV"
+		"wave"			"npc\Moustachio\STRENGTHATTRACT08.WAV"
+		"wave"			"npc\Moustachio\STRENGTHATTRACT09.WAV"
+	}
+}
+
+//
+"Lilpeanut.GALLERY_SPAWN"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"100, 110"
+	"soundlevel"		"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"			"npc\Lilpeanut\lilpeanut01.WAV"
+		"wave"			"npc\Lilpeanut\lilpeanut02.WAV"
+		"wave"			"npc\Lilpeanut\lilpeanut04.WAV"
+		"wave"			"npc\Lilpeanut\lilpeanut05.WAV"
+		"wave"			"npc\Lilpeanut\lilpeanut06.WAV"
+		"wave"			"npc\Lilpeanut\lilpeanut07.WAV"
+	}
+}
+
+//
+"Lilpeanut.GALLERY_HIT"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"			"npc\Lilpeanut\lilpeanuthurt01.WAV"
+		"wave"			"npc\Lilpeanut\lilpeanuthurt02.WAV"
+	}
+}
+

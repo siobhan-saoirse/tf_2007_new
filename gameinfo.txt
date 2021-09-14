@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Old Fortress 2"
+	game	"Civilian 2.5: The Return"
 	gamelogo 1
 	type multiplayer_only
 	nocrosshair 0
@@ -57,8 +57,6 @@
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
 
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
-			game_hd				"|gameinfo_path|..\..\sourcemods\open_fortress"
-			game_hd				"|gameinfo_path|of2_hd"
 			// Lastly, mount in shared loose files.
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
@@ -75,6 +73,9 @@
 			// The map search pack is mounted at the top of the search path list,
 			// but only while you are connected that server and on that map.
 			game+download		|gameinfo_path|download
+
+			// The games below need to be mounted for some content to be seen. If you don't own the game and still have the content, you are a dirty pirate.
+
 			// Garry's Mod
 			game "|gameinfo_path|..\..\common\GarrysMod\garrysmod"
 			game "|gameinfo_path|..\..\common\GarrysMod\garrysmod\garrysmod.vpk"
@@ -126,6 +127,10 @@
 			game "|gameinfo_path|..\..\common\portal\portal"
 			game "|gameinfo_path|..\..\common\Portal 2\portal2"
 			game "|gameinfo_path|..\..\common\Left 4 Dead 2\left4dead2"
+			game "|gameinfo_path|..\..\common\Left 4 Dead 2\left4dead2_dlc1"
+			game "|gameinfo_path|..\..\common\Left 4 Dead 2\left4dead2_dlc2"
+			game "|gameinfo_path|..\..\common\Left 4 Dead 2\left4dead2_dlc3"
+			game "|gameinfo_path|..\..\common\Left 4 Dead 2\update"
 			game "|gameinfo_path|..\..\common\Team Fortress 2\tf"
 			game "|gameinfo_path|..\..\common\Counter-Strike Source\cstrike"
 			// TF2
