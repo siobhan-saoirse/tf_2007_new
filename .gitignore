@@ -4,3 +4,4 @@ custom/mastercomfig-disable-pyroland-addon.vpk
 custom/mastercomfig-low-preset.vpk
 custom/mastercomfig-low-preset.vpk.sound.cache
 custom/mastercomfig-disable-pyroland-addon.vpk.sound.cache
+*.cache
