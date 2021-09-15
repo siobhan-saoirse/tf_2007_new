@@ -147,6 +147,36 @@
 		"wave"		"player/footsteps/infected/run/concrete4.wav"
 	}
 }
+//----------------------------------------------------------------------------------------------------------------------------------------//
+//Infected Run
+//----------------------------------------------------------------------------------------------------------------------------------------//
+"Zombie.WadeLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"        "1.0"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
+	}
+}
+
+"Zombie.WadeRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,105"
+	"volume"        "1.0"
+	"rndwave"
+	{
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
+	}
+}
 
 // awake and becoming aware of survivors
 "Zombie.Alert"

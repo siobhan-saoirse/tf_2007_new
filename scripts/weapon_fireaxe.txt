@@ -54,8 +54,8 @@ WeaponData
 	}
 
 	"anim_prefix"			"anim"
-	"bucket"				"1"
-	"bucket_position"		"1"
+	"bucket"				"2"
+	"bucket_position"		"0"
 	
 	"weight"				"5"
 	"item_flags"			"0"
