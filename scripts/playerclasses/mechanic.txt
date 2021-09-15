@@ -1,0 +1,44 @@
+//
+// Team Fortress - Scout Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"mechanic"
+	"model"			"models/player/engineer.mdl"
+	"bot_model"			"models/bots/scout/bot_scout.mdl"
+	"boss_model"			"models/bots/scout_boss/bot_scout_boss.mdl"
+	"model_hwm"		"models/survivors/survivor_mechanic.mdl"
+	"arm_model"		"models/weapons/c_models/c_scout_arms.mdl"
+	"localize_name"	"TF_Class_Name_Mechanic"
+//	"speed_max"		"450"
+	"speed_max"		"400"
+//	"health_max"		"75"
+//	"armor_max"		"25"
+	"health_max"		"100"
+	"armor_max"		"100"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_CALTROP"
+	"grenade2"		"TF_WEAPON_GRENADE_CONCUSSION"
+
+	// Weapons.
+	"weapon1"		"WEAPON_FIREAXE"
+	"weapon2"		"WEAPON_PISTOL_L4D"
+	"weapon3"		"WEAPON_PUMPSHOTGUN"
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"32"
+		"tf_ammo_secondary"	"36"
+		"tf_ammo_metal"		"100"
+		"tf_ammo_grenades1"	"0"
+		"tf_ammo_grenades2"	"0"	
+	}	
+
+	// Death Sounds
+	"sound_death"				"Mechanic_HurtMinor01"
+	"sound_crit_death"				"Mechanic_DeathScream01"
+	"sound_melee_death"			"Mechanic_DeathScream01"
+	"sound_explosion_death"			"Mechanic_Defibrillator17"	
+}

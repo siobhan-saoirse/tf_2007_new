@@ -71,6 +71,8 @@
 		"wave"		"player/footsteps/wade2.wav"
 		"wave"		"player/footsteps/wade3.wav"
 		"wave"		"player/footsteps/wade4.wav"
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
 	}
 }
 
@@ -87,6 +89,8 @@
 		"wave"	"player/footsteps/wade2.wav"
 		"wave"	"player/footsteps/wade3.wav"
 		"wave"	"player/footsteps/wade4.wav"
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
 	}
 }
 
@@ -99,6 +103,8 @@
 	{
 		"wave"		"player/footsteps/concrete1.wav"
 		"wave"		"player/footsteps/concrete3.wav"
+		"wave"		"player/footsteps/tile1.wav"
+		"wave"		"player/footsteps/tile3.wav"
 	}
 }
 
@@ -111,6 +117,8 @@
 	{
 		"wave"		"player/footsteps/concrete2.wav"
 		"wave"		"player/footsteps/concrete4.wav"
+		"wave"		"player/footsteps/tile2.wav"
+		"wave"		"player/footsteps/tile4.wav"
 	}
 }
 
@@ -284,6 +292,30 @@
 	{
 		"wave"		"player/footsteps/dirt2.wav"
 		"wave"		"player/footsteps/dirt4.wav"
+	}
+}
+
+"Snow.StepLeft"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/snow1.wav"
+		"wave"		"player/footsteps/snow3.wav"
+	}
+}
+
+"Snow.StepRight"
+{
+	"soundlevel"		"SNDLVL_96dB"
+	"pitch"			"95,105"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/snow2.wav"
+		"wave"		"player/footsteps/snow4.wav"
 	}
 }
 
@@ -555,6 +587,8 @@
 	{
 		"wave"		"player/footsteps/slosh2.wav"
 		"wave"		"player/footsteps/slosh4.wav"
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
 	}
 }
 
@@ -566,6 +600,8 @@
 	"rndwave"
 	{
 		"wave"		"player/footsteps/slosh1.wav"
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
 		"wave"		"player/footsteps/slosh3.wav"
 	}
 }
@@ -581,6 +617,8 @@
 		"wave"	"player/footsteps/slosh3.wav"
 		"wave"	"player/footsteps/slosh2.wav"
 		"wave"	"player/footsteps/slosh4.wav"
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
 	}
 }
 
@@ -643,6 +681,8 @@
 	{
 		"wave"		"player/footsteps/wade1.wav"
 		"wave"		"player/footsteps/wade3.wav"
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
 	}
 }
 
@@ -655,6 +695,8 @@
 	{
 		"wave"		"player/footsteps/wade2.wav"
 		"wave"		"player/footsteps/wade4.wav"
+		"wave"		"player/water/pl_wade1.wav"
+		"wave"		"player/water/pl_wade2.wav"
 	}
 }
 
@@ -1238,7 +1280,7 @@
 "Flesh.ImpactSoft"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.6"
+	"volume"		"01"
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
@@ -1257,7 +1299,7 @@
 "Flesh.ImpactHard"
 {
 	"soundlevel"		"SNDLVL_85dB"
-	"volume"		"0.8"
+	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
@@ -1334,7 +1376,7 @@
 "Flesh_Bloody.ImpactHard"
 {
 	"soundlevel"		"SNDLVL_75dB"
-	"volume"		"0.6"
+	"volume"		"1"
 	"pitch"			"100"
 	"rndwave"
 	{
@@ -2882,6 +2924,8 @@
 	{
 		"wave"		"player/footsteps/wood1.wav"
 		"wave"		"player/footsteps/wood3.wav"
+		"wave"		"player/footsteps/woodpanel1.wav"
+		"wave"		"player/footsteps/woodpanel3.wav"
 	}
 }
 
@@ -2893,7 +2937,9 @@
 	"rndwave"
 	{
 		"wave"		"player/footsteps/wood2.wav"
-		"wave"		"player/footsteps/wood4.wav"
+		"wave"		"player/footsteps/wood4.wav"		
+		"wave"		"player/footsteps/woodpanel2.wav"
+		"wave"		"player/footsteps/woodpanel4.wav"
 	}
 }
 

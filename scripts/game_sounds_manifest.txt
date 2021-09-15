@@ -103,7 +103,7 @@ game_sounds_manifest
 	"precache_file"		"scripts/npc_sounds_barney.txt"
 	"precache_file"		"scripts/npc_sounds_soldier.txt"
 	"precache_file"		"scripts/npc_sounds_strider.txt"
-	"precache_file"		"scripts/npc_sounds_zombie.txt"
+	//"precache_file"		"scripts/npc_sounds_zombie.txt"
 	"precache_file"		"scripts/npc_sounds_vortigaunt.txt"
 	"precache_file"		"scripts/npc_sounds_turret.txt"
 	"precache_file"		"scripts/npc_sounds_scanner.txt"

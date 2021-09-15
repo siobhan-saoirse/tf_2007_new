@@ -113,6 +113,41 @@
 	}
 }
 
+//----------------------------------------------------------------------------------------------------------------------------------------//
+//Infected Run
+//----------------------------------------------------------------------------------------------------------------------------------------//
+"Zombie.FootstepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"        "1.0"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/infected/run/concrete1.wav"
+		"wave"		"player/footsteps/infected/run/concrete3.wav"
+		"wave"		"player/footsteps/infected/run/concrete2.wav"
+		"wave"		"player/footsteps/infected/run/concrete4.wav"
+	}
+}
+
+"Zombie.FootstepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,105"
+	"volume"        "1.0"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/infected/run/concrete1.wav"
+		"wave"		"player/footsteps/infected/run/concrete3.wav"
+		"wave"		"player/footsteps/infected/run/concrete2.wav"
+		"wave"		"player/footsteps/infected/run/concrete4.wav"
+	}
+}
+
 // awake and becoming aware of survivors
 "Zombie.Alert"
 {

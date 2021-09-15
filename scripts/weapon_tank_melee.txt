@@ -31,7 +31,7 @@ WeaponData
 	SoundData
 	{
 		"melee_miss"		"HulkZombie.Attack"
-		"melee_hit"		"HulkZombie.Punch"
+		"melee_hit"		"PlayerZombie.AttackHit"
 		"melee_hit_robo"		"HulkZombie.PunchIncap"
 		"melee_hit_world"	"HulkZombie.Punch"
 		"burst"			"HulkZombie.Attack"

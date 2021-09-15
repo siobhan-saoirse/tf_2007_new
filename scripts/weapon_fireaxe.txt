@@ -1,0 +1,121 @@
+WeaponData
+{
+	"VerticalPunch"			"2.0"
+	"DeployDuration"		"0.5"
+
+	"MaxPlayerSpeed"		"250"
+	"MeleeWeapon"			"1"
+	"WeaponType"			"melee"
+	"WeaponArmorRatio"		"1.0"
+	"TimeFireDelay"			"0.8"
+	"TimeIdle"				"5.0"
+	"CrosshairMinDistance"		"8"
+	"CrosshairDeltaDistance" 	"3"
+	"Team" 					"Survivor"
+	"BuiltRightHanded" 		"1"
+	"PlayerAnimationExtension" 	"pistol"
+	
+	"Rumble"			"1"
+	
+	"Damage"			"70"
+	"CycleTime"			"0.175"
+	
+	"ResponseRulesName"		"Melee"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"Fire Axe"
+	// Model to show in firstperson
+	//"viewmodel"		"models/weapons/melee/v_fireaxe.mdl"
+	
+	// Model to show in thirdperson
+	//"playermodel"	"models/weapons/melee/w_fireaxe.mdl"
+	"viewmodel"			"models/weapons/v_models/v_fireaxe_pyro.mdl"
+	"playermodel"			"models/weapons/w_models/w_fireaxe.mdl"
+	
+	"AddonModel"				"models/weapons/melee/w_fireaxe.mdl"
+	"AddonAttachment"			"primary"
+	
+	"CharacterViewmodelAddon"
+	{
+		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
+		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
+		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
+		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
+	}
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"melee_miss"		"Axe.Miss"
+		"melee_hit"			"Axe.ImpactFlesh"
+		"melee_hit_robo"		"MVM_Weapon_Sword.HitFlesh"
+		"melee_hit_world"	"Axe.ImpactWorld"
+		"burst"				"Axe.Miss"
+	}
+
+	"anim_prefix"			"anim"
+	"bucket"				"1"
+	"bucket_position"		"1"
+	
+	"weight"				"5"
+	"item_flags"			"0"
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"L4D_WeaponsSmall"
+				"character"	"%"
+		}
+		"weapon_s"
+		{	
+				"font"		"L4D_Weapons"
+				"character"	"%"
+		}
+		"weapon_dual"
+		{
+				"font"		"L4D_WeaponsSmall"
+				"character"	"&"
+		}
+		"weapon_dual_s"
+		{	
+				"font"		"L4D_Weapons"
+				"character"	"&"
+		}
+		"ammo"
+		{
+				"font"		"DebugFixed"
+				"character"	"A"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-7 -4 -14"
+			Maxs	"24 9 -2"
+		}
+		World
+		{
+			Mins	"-1 -4 -3"
+			Maxs	"17 5 6"
+		}
+	}
+}

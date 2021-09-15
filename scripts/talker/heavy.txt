@@ -61,6 +61,11 @@ Rule PlayerCloakedSpyHeavyHeavy
 	Response PlayerCloakedSpyHeavyHeavy
 }
 
+Rule PlayerCloakedSpyHeavyTank
+{
+	criteria ConceptPlayerCloakedSpy IsHeavy IsOnTank
+	Response MvMTankCalloutHeavy
+}
 Response PlayerCloakedSpyMedicHeavy
 {
 	scene "scenes/Player/Heavy/low/227.vcd" 
@@ -1905,13 +1910,78 @@ Response PlayerPainTank2
 }
 Rule PlayerPainTank
 {
-	criteria ConceptPain IsTank IsNotDominating
+	criteria ConceptPain IsTank IsNotDominating 50PercentChance
 	Response PlayerPainTank
 }
 Rule PlayerPainTank2
 {
-	criteria ConceptAttackerPain IsTank IsNotDominating
+	criteria ConceptAttackerPain IsTank 50PercentChance
 	Response PlayerPainTank2
+}
+Response PlayerIdleTank
+{	
+	speak "HulkZombie.Voice"
+	speak "HulkZombie.Growl"
+	speak "HulkZombie.Breathe"
+}
+Response PlayerYellTank
+{	
+	speak "HulkZombie.Yell"
+}
+Rule PlayerCloakedSpyTank
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance
+	Response PlayerIdleTank
+}
+Rule PlayerCloakedSpyTankAngry1
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnDemoman
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry2
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnEngineer
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry3
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnHeavy
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry4
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnSoldier
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry5
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnSpy
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry6
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnSniper
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry8
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnMedic
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry9
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnPyro
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry10
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnCivilian
+	Response PlayerYellTank
+}
+Rule PlayerCloakedSpyTankAngry11
+{
+	criteria ConceptPlayerCloakedSpy IsTank 50PercentChance IsOnTank
+	Response PlayerYellTank
 }
 
 //--------------------------------------------------------------------------------------------------------------

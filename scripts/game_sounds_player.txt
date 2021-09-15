@@ -177,7 +177,7 @@
 	"volume"	"VOL_NORM"
 	"pitch"		"92,96"
 	"soundlevel"	"SNDLVL_NORM"
-	"wave"		"player/pl_fleshbreak.wav"
+	"wave"		"player/pl_fallpain.wav"
 }
 
 "Player.FallDamage"
@@ -185,7 +185,11 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1"
 	"soundlevel"	"SNDLVL_NORM"
-	"wave"		"player/pl_fallpain.wav"
+	"rndwave"
+	{
+		"wave"		"player/damage1.wav"
+		"wave"		"player/damage2.wav"
+	}
 }
 
 "Player.PlasmaDamage"
@@ -269,11 +273,7 @@
 	"soundlevel"  	"SNDLVL_75dB"	
 	"pitch"		"PITCH_NORM"
 
-	"rndwave"
-	{
-		"wave"	"ambient/fire/fire_small_loop1.wav"
-		"wave"	"ambient/fire/fire_small_loop2.wav"
-	}
+	"wave"		 "npc/headcrab/headcrab_burning_loop2.wav" 
 }
 
 "Player.ReceiveSouls"

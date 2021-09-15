@@ -6,15 +6,15 @@
 	}
 	"cp_dustbowl"
 	{
-		"viewed"		"22"
+		"viewed"		"23"
 	}
 	"pl_upward"
 	{
-		"viewed"		"5"
+		"viewed"		"7"
 	}
 	"ctf_2fort"
 	{
-		"viewed"		"86"
+		"viewed"		"109"
 	}
 	"ctf_well"
 	{
@@ -30,11 +30,11 @@
 	}
 	"cp_coldfront"
 	{
-		"viewed"		"5"
+		"viewed"		"8"
 	}
 	"cp_badlands"
 	{
-		"viewed"		"21"
+		"viewed"		"25"
 	}
 	"cp_degrootkeep"
 	{
@@ -106,7 +106,7 @@
 	}
 	"mvm_bigrock_vs"
 	{
-		"viewed"		"61"
+		"viewed"		"136"
 	}
 	"heist_v5"
 	{
@@ -134,7 +134,7 @@
 	}
 	"mvm_mannhattan_vs"
 	{
-		"viewed"		"6"
+		"viewed"		"7"
 	}
 	"2008_test_v6"
 	{
@@ -142,7 +142,7 @@
 	}
 	"ctf_turbine"
 	{
-		"viewed"		"9"
+		"viewed"		"15"
 	}
 	"2008_test_v7"
 	{
@@ -154,7 +154,7 @@
 	}
 	"ctf_turbine_v2"
 	{
-		"viewed"		"1"
+		"viewed"		"2"
 	}
 	"mvm_bigrock_vs_fix2"
 	{
@@ -175,5 +175,85 @@
 	"mvm_bigrock_vs_fix7"
 	{
 		"viewed"		"5"
+	}
+	"sd_doomsday_event"
+	{
+		"viewed"		"1"
+	}
+	"cp_manor_event"
+	{
+		"viewed"		"2"
+	}
+	"ctf_landfall"
+	{
+		"viewed"		"1"
+	}
+	"gm_construct"
+	{
+		"viewed"		"67"
+	}
+	"tf_test_map_remaster_v8"
+	{
+		"viewed"		"3"
+	}
+	"2008_test_v9"
+	{
+		"viewed"		"1"
+	}
+	"anightmare12"
+	{
+		"viewed"		"1"
+	}
+	"anightmare13"
+	{
+		"viewed"		"1"
+	}
+	"anightmare17"
+	{
+		"viewed"		"1"
+	}
+	"itemtest_v2"
+	{
+		"viewed"		"3"
+	}
+	"itemtest_but_its_bigger_remaster"
+	{
+		"viewed"		"2"
+	}
+	"itemtest_but_its_bigger_remaster_fix"
+	{
+		"viewed"		"1"
+	}
+	"itemtest_but_its_bigger_remaster_quickfix1"
+	{
+		"viewed"		"1"
+	}
+	"itemtest_but_its_bigger_remaster_v3"
+	{
+		"viewed"		"1"
+	}
+	"gm_flatgrass"
+	{
+		"viewed"		"1"
+	}
+	"itemtest_but_its_bigger_remaster_v4"
+	{
+		"viewed"		"1"
+	}
+	"itemtest_but_its_bigger_remaster_v5"
+	{
+		"viewed"		"2"
+	}
+	"itemtest_but_its_bigger_remaster_v5fix1"
+	{
+		"viewed"		"1"
+	}
+	"d3_c17_03"
+	{
+		"viewed"		"1"
+	}
+	"gm_bigcity_improved"
+	{
+		"viewed"		"4"
 	}
 }
