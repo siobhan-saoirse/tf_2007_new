@@ -6,8 +6,6 @@ WeaponData
 	"printname"	"#HL2_Pulse_Rifle"
 	"viewmodel"			"models/weapons/v_irifle.mdl"
 	"playermodel"			"models/weapons/w_irifle.mdl"
-	"WeaponType"		"secondary"
-
 	"anim_prefix"			"ar2"
 	"bucket"			"2"
 	"bucket_position"		"1"
@@ -20,8 +18,8 @@ WeaponData
 	"clip2_size"			"-1"
 	"default_clip2"			"-1"
 
-	"primary_ammo"		"TF_AMMO_SECONDARY"
-	"secondary_ammo"	"None"
+	"primary_ammo"			"AR2"
+	"secondary_ammo"		"AR2AltFire"
 
 	"weight"				"5"
 	"rumble"			"4"
