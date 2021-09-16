@@ -1352,7 +1352,26 @@
 		"textAlignment"	"center"
 		"font"			"MenuClassBuckets"
 		"fgcolor"		"TanLight"
-	}								
+	}		
+	"numCivilian" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numCivilian"
+		"xpos"			"c178"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numCivilian%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}							
 	
 	"MvMUpgradeImageScout"
 	{
